@@ -22,6 +22,12 @@
                 <h1>GeoJSON &amp; Mapping Queries with MongoDB</h1>
             </div>
 
+			<div>
+			<select id="ddPropertyTypes" onchange="filterByPropertyType(this.options[this.selectedIndex].text);">
+				<option>Filter by Property Type</option>
+			</select>
+			</div>
+			
             <div id="divResults">
                 <div id="divMap"></div>
             </div>
